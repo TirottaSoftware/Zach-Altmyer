@@ -1,0 +1,228 @@
+@media screen and (min-width: 1366px) and (max-width: 1599px) {
+    .podcasts-container .podcast-title h2{
+        font-size: 2.5rem;
+    }
+}
+@media screen and (min-width: 1200px) and (max-width: 1366px) {
+    .course-info .cta{
+        padding: 3% 15%;
+    }
+
+    .courses-container .discord-card h2{
+        font-size: 1.5rem;
+    }
+    .cta{
+        font-size: 1rem;
+    }
+
+    .podcasts-container .podcast-title h2{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+    .hero{
+        background-position: 40% 60%;
+    }
+    .hero .hero-content{
+        width: 100%;
+    }
+    .hero .hero-content h1{
+        width: 75%;
+    }
+    .hero .hero-content p{
+        width: 50%;
+    }
+
+    .about-container .about-right{
+        width: 40%;
+    }
+    .about-container .about-right .img-wrapper::after{
+        left: 0;
+        bottom: -40px;
+    }
+
+    .services-container .img-wrapper{
+        width: 40%;
+    }
+
+    .course-info .cta{
+        padding: 3% 15%;
+    }
+    .free-course-container .course-info{
+        width: 55%;
+    }
+    .free-course-container .img-wrapper{
+        width: 40%;
+    }
+
+    .courses-container .discord-card h2{
+        font-size: 1.5rem;
+    }
+    .cta{
+        font-size: 1rem;
+    }
+    
+    .podcasts-container .podcast-title h2{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 991px) {
+    .section-container{
+        width: 75%;
+    }
+    .nav-links ul{
+        display: none;
+    }
+    .sidebar-transition{
+        transition: .5s ease-in-out;
+    }
+    .sidebar-active{
+        transform: translateX(0);
+    }
+    .burger, .sidebar{
+        transition: all .7s ease;
+        display: block;
+    }
+    .burger-translated{
+        right: calc(60% - 20px);
+        transform: rotate(90deg);
+    }
+
+    .hero{
+        background-position: center;
+        height: 100%;
+    }
+    .hero .hero-content{
+        text-align: center;
+        display: flex;
+        flex-flow: column;
+        width: 90%;
+        padding: 0;
+        margin: 0 auto;
+        height: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero .hero-content h1{
+        width: 90%;
+        margin: 0 auto;
+        font-size: 2.5rem;
+    }
+    .hero .hero-content p{
+        width: 70%;
+        font-size: 1.25rem;
+        margin: 5% 0;
+    }
+    .hero .hero-content .hero-cta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 60px;
+        font-size: 1.15rem;
+    }
+    .hero-bottom{
+        top: 0;
+        width: 100%;
+        flex-flow: column;
+        align-items: center;
+    }
+    .hero-bottom .hero-bottom-card{
+        width: 90%;
+        margin: 5% 0;
+    }
+
+    .about-container{
+        flex-flow: column;
+        text-align: center;
+    }
+    .about-container .about-content{
+        width: 100%;
+    }
+    .about-container .about-right{
+        margin-top: 5%;
+        width: 80%;
+    }
+    .about-container .about-right .img-wrapper::after{
+        left: 0;
+        bottom: -40px;
+    }
+    .social-contact{
+        margin: 0 auto;
+    }
+
+    .services-container{
+        flex-flow: column-reverse;
+        text-align: center;
+    }
+    .services-container .services-content{
+        width: 100%;
+    }
+    .services-container .img-wrapper{
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .free-course-container{
+        flex-flow: column;
+        text-align: center;
+    }
+    .free-course-container .img-wrapper{
+        width: 90%;
+        margin-bottom: 5%;
+    }
+    .free-course-container .course-info{
+        width: 100%;
+    }
+    
+    .courses-container{
+        flex-flow: column;
+    }
+    .courses-container .course-card{
+        width: 450px;
+        height: 450px;
+        margin: 5% 0;
+    }
+    .courses-container .course-card .cta{
+        margin: 10px 0;
+    }
+    .courses-container .discord-card{
+        width: 450px;
+        flex-flow: column;
+    }
+    .courses-container .discord-card img{
+        width: 80%;
+        padding: 5%;
+    }
+    .courses-container .discord-card h2{
+        width: 90%;
+        text-align: center;
+        margin: 2.5% 0;
+    }
+    .courses-container .discord-card .cta{
+        max-width: unset;
+        margin: 5% 0;
+    }
+
+    .podcasts-container, .podcasts-container:last-child{
+        flex-flow: column;    
+    }
+    .podcasts-container .img-wrapper{
+        width: 100%;
+    }
+    .podcasts-container .podcast-title{
+        width: 100%;
+        align-items: center;
+        text-align: center;
+    }
+    .podcasts-container .podcast-title h2{
+        font-size: 2rem;
+    }
+
+    .footer-container{
+        flex-flow: column-reverse;
+        padding: 20px 0;
+    }
+    .footer-container h3{
+        margin-top: 10px
+    }
+}
