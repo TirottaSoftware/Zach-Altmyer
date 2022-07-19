@@ -70,6 +70,15 @@
     .section-container{
         width: 75%;
     }
+    .section-heading, .course-info .section-heading{
+        font-size: 2.5rem;
+    }
+    .section-title{
+        width: 90%;
+        text-align: center;
+        margin: 5% auto;
+    }
+
     .nav-links ul{
         display: none;
     }
@@ -178,15 +187,17 @@
         flex-flow: column;
     }
     .courses-container .course-card{
-        width: 450px;
-        height: 450px;
+        width: 350px;
+        height: 350px;
         margin: 5% 0;
     }
     .courses-container .course-card .cta{
-        margin: 10px 0;
+        width: 300px;
+        max-width: unset;
+        margin: 5% 0;
     }
     .courses-container .discord-card{
-        width: 450px;
+        width: 350px;
         flex-flow: column;
     }
     .courses-container .discord-card img{
