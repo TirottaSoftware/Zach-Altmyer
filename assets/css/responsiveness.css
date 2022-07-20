@@ -302,7 +302,8 @@
     }
     .blogs-container .blog-card{
         width: 100%;
-        height: 600px;
+        height: unset;
+        margin: 20px 0;
     }
 
     .container-23 .article-card, .container-13 .article-card{
