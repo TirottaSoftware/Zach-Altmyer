@@ -10,11 +10,12 @@
 :root{
     --color-primary: #3944F6;
     --color-secondary: #5DA3F9;
-    --color-primary-opacity: #3943f6b6;
+    --color-primary-opacity: rgba(57, 67, 246, 0.500);
     --color-grey: #F3F3F3;
 
     --text-grey: #7A7A7A;
 
+    --font-heading: 'Teko', sans-serif;
     --font-primary: 'Montserrat', sans-serif;
 }
 
@@ -264,11 +265,13 @@ nav{
     color: white;
 }
 .hero-content h1{
+    font-family: var(--font-heading);
+    font-weight: 700;
     font-size: 5rem;
     width: 70%;
 }
 .hero-content p{
-    margin: 1% 0 2.5% 0;
+    margin-bottom: 2.5%;
     font-size: 1.6rem;
     width: 45%;
 }
@@ -279,13 +282,13 @@ nav{
     font-size: 1.25rem;
     text-transform: uppercase;
     border-radius: 15px;
-    border: 2px solid white;
+    background: var(--color-primary-opacity);
+    border: 2px solid var(--color-primary);
     text-align: center;
 }
 .hero-content .hero-cta:hover{
     transition: all .5s ease;
-    background: var(--color-secondary);
-    border-color: var(--color-secondary); 
+    background: var(--color-primary);
     /* box-shadow: 0px 0px 10px 5px white; */
 }
 
@@ -301,6 +304,7 @@ nav{
 }
 .section-title-centered{
     justify-content: center;
+    text-align: center;
 }
 .section-title .title-line{
     height: 2px;

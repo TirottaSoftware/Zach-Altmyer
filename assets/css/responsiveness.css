@@ -2,6 +2,39 @@
     .podcasts-container .podcast-title h2{
         font-size: 2.5rem;
     }
+
+    .blogs-container .blog-card h2, .article-card .article-content h2{
+        font-size: 1.75rem;
+    }
+   
+
+}
+@media screen and (max-width: 1599px) {
+    #guides{
+        width: 85%;
+    }
+    .guides .guide-card .guide-content{
+        padding: 5px;
+    }
+
+    .articles-container{
+        display: flex;
+        flex-flow: column;
+        gap: 10px;
+    }
+    .articles-container .container-23 .article-card{
+        margin: 10px 0;
+        height: unset;
+    }
+    .container-13 .article-card{
+        background: white;
+        border-radius: 15px;
+        flex-flow: row;
+    }
+    .container-13 .article-card .img-wrapper{
+        width: 100%;
+    }
+
 }
 @media screen and (min-width: 1200px) and (max-width: 1366px) {
     .course-info .cta{
@@ -17,6 +50,17 @@
 
     .podcasts-container .podcast-title h2{
         font-size: 2rem;
+    }
+
+    .blogs-container .blog-card{
+        width: 350px;
+        height: 600px;
+    }
+
+    .guides-container{
+        display: grid;
+        grid-template-columns: 65% 30%;
+        gap: 25px;
     }
 }
 @media screen and (min-width: 991px) and (max-width: 1200px) {
@@ -64,6 +108,19 @@
     
     .podcasts-container .podcast-title h2{
         font-size: 1.5rem;
+    }
+
+    .blogs-container .blog-card{
+        width: 350px;
+        height: 600px;
+    }
+    .guides-container{
+        grid-template-columns: 100%;
+        gap: 25px;
+    }
+    .twitter-container{
+        width: 60%;
+        margin: 0 auto;
     }
 }
 @media screen and (max-width: 991px) {
@@ -115,7 +172,10 @@
     .hero .hero-content h1{
         width: 90%;
         margin: 0 auto;
-        font-size: 2.5rem;
+        line-height: 100%;
+    }
+    #blog-hero-title{
+        font-size: 6rem;
     }
     .hero .hero-content p{
         width: 70%;
@@ -235,5 +295,42 @@
     }
     .footer-container h3{
         margin-top: 10px
+    }
+
+    .blogs-container .blog-card{
+        height: unset;
+    }
+    .blogs-container .blog-card{
+        width: 100%;
+        height: 600px;
+    }
+
+    .container-23 .article-card, .container-13 .article-card{
+        flex-flow: column;
+        padding-bottom: 20px;
+    }
+    .article-card .article-content p{
+        width: 90%;
+    }
+
+    .guides-container{
+        grid-template-columns: 100%;
+        gap: 25px;
+    }
+    .guides .guide-card .img-wrapper{
+        display: none;
+    }
+    .guides .guide-card .guide-content{
+        margin: 10px;
+    }
+
+    #blog{
+        flex-flow: column-reverse;
+    }
+    .blog-container, .blog-sidebar{
+        width: 90%;
+        margin: 5% auto;
+        align-items: center;
+        text-align: center;
     }
 }
